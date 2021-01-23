@@ -1,0 +1,52 @@
+Scopul aplicatiei:
+Utilizatorii pot adauga recenzii cu privire la conditiile in trasportul in comun din Bucuresti
+
+Pentru a porni aplicatia:
+    1. cd back-end -> node app.js
+    2. cd front-end -> npm start
+
+Componența echipei:
+    Nedelcu Greta
+    Nicolae Alexandra
+    Nitulescu Maria
+
+
+Back-end - pastreaza API-ul pentru aplicatie
+
+Tehnologii utilizate:
+Front-end: ReactJS
+Back-end: ExpressJS, concepte din RESTful API
+Baza de date: Microsoft SQL Server
+
+--------------- Pentru testarea in Postman --------------------
+
+POST /register  
+
+{
+	"username": "maria@gmail.com",
+	"password": "password"
+}
+
+
+POST /login  
+
+{
+	"username": "maria@gmail.com",
+	"password": "password"
+}
+
+
+
+POST /reviews
+
+{
+	"leaving_point": "Romana",
+    "arriving_point": "Unirii",
+    "leaving_hour": "12:10",
+    "duration": 5,
+    "observations": "ew",
+    "rating": "super",
+    "congestion_level":10,
+    "userId": 1,
+    "transportTypeId":null
+}
