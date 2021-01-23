@@ -2,8 +2,12 @@ Scopul aplicatiei:
 Utilizatorii pot adauga recenzii cu privire la conditiile in trasportul in comun din Bucuresti
 
 Pentru a porni aplicatia:
-    1. cd back-end -> node app.js
-    2. cd front-end -> npm start
+    1. cd back-end 
+        -> npm install
+    	-> node app.js
+    2. cd front-end 
+    	-> npm install
+    	-> npm start
 
 Componența echipei:
     Nedelcu Greta
